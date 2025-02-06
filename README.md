@@ -1,6 +1,7 @@
 An awfully lazy attempt at making YouTube subtitles look prettier.
 
-![image](https://github.com/user-attachments/assets/36063ee4-548b-4aa5-8941-8ad8309cea6b)
+![image](https://github.com/user-attachments/assets/e6942b6c-493d-4b20-8df1-b0cf2c0ce683)
+
 
 ### Usage
 Can be used with any extension which lets you add custom css.
