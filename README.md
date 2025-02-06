@@ -8,5 +8,6 @@ These edits were created with [Stylus](https://add0n.com/stylus.html) for custom
 
 ### Pros & Cons
 - Makes YouTube subtitles look prettier.
+- Subtitles don't move with progress bar hiding.
 - Takes away the ability to reposition subtitles; can be changed otherwise (not included).
 - Pleasing to read on unbusy backgrounds; but may be difficult to read in extreme cases.
