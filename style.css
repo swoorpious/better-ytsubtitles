@@ -11,16 +11,16 @@
 
 .ytp-caption-segment {
     background: none !important;
-    font-family: "Inter","YouTube Noto",Roboto,Arial,Helvetica,sans-serif !important;
+    font-family: "Inter", sans-serif !important;
     font-size: 24px !important;
     font-weight: lighter !important;
     opacity: 100%;
     color: #fff !important;
     text-shadow: 0px 0px 1px #000,
-                 0px 0px 1px #000,
-                 0px 0px 1px #000,
-                 0px 0px 1px #000,
-                 0px 0px 1px #000,
+                 0px 0px 1px #000, 
+                 0px 0px 1px #000, 
+                 0px 0px 1px #000, 
+                 0px 0px 1px #000, 
                  0px 0px 1px #000;
 }
 
@@ -36,15 +36,19 @@
 }
 
 /* miniplayer */
+.ytp-player-minimized .caption-window {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center !important;
+    bottom: 12px !important;
+
+}
+
 .ytp-player-minimized .ytp-caption-segment {
     width: 100%!important;
     background: none !important;
-    font-family: "Inter","YouTube Noto",Roboto,Arial,Helvetica,sans-serif !important;
-    font-size: /*24px*/ 12px !important;
-    font-weight: lighter !important;
-    opacity: 100%;
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #000, 0px 0px 1px #000, 0px 0px 1px #000;
+    font-family: "inter","YouTube Noto",Roboto,Arial,Helvetica,sans-serif !important;
 }
 
 /* shorts */
@@ -57,29 +61,41 @@
 }
 
 /* when you hover a thumbnail */
-.ytp-small-mode .caption-window, .ytp-player-minimized .caption-window {
-    width: 100% !important;
-    display: flex !important;
-    align-items: center!important;
-    justify-content: center !important;
-    bottom: 12px !important;
-
-}
-
-.ytp-small-mode .caption-window {
+.ytp-small-mode:not(.ytp-player-minimized) .caption-window {
     bottom: 0px !important;
-    height: 30px !important;
+    height: 34px !important;
     justify-content: flex-start !important;
     align-items: flex-start!important;
     margin-left: 10px !important;
-
+    width: 100% !important;
+    display: flex !important;
 }
 
-.ytp-small-mode .captions-text {
+.ytp-small-mode:not(.ytp-player-minimized) .captions-text {
     justify-content: flex-start !important;
     align-items: flex-start!important;
 }
 
-.ytp-small-mode .ytp-caption-segment {
-    font-size: 12px !important;
+.ytp-small-mode:not(.ytp-player-minimized) .ytp-caption-segment {
+    letter-spacing: inherit !important;
+}
+
+/* text shadow for minimized and hover player */
+.ytp-small-mode .ytp-caption-segment,
+.ytp-player-minimized .ytp-caption-segment {
+    font-size: /*24px*/ 14px !important;
+    font-weight: 500 !important;
+    opacity: 100%;
+    color: #fff !important;
+
+    /* use text shadow if text-stroke looks like shit */ 
+    /* text-shadow: 0px 0px 1px #000, 
+                    0px 0px .75px #000, 
+                    0px 0px .75px #000, 
+                    0px 0px .75px #000, 
+                    0px 0px 1px #000, 
+                    0px 0px 1px #000; */
+    -webkit-text-stroke: .0001px #000000a8;
+
+    letter-spacing: .75px !important;
 }
