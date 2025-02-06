@@ -4,7 +4,7 @@ An awfully lazy attempt at making YouTube subtitles look prettier.
 
 
 ### Usage
-Can be used with any extension which lets you add custom css.
+Can be used with any extension that lets you add custom css.
 
 These edits were made with [Stylus](https://add0n.com/stylus.html) for custom css. 
 
