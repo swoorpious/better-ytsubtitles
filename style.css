@@ -54,10 +54,21 @@
 /* shorts */
 #shorts-player .caption-window {
     width: 100% !important;
+    height: 46px !important;
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center !important;
+/*         top: 64px !important; */
+    margin: 0 !important;
 }
 
 #shorts-player .ytp-caption-segment {
     font-size: 20px !important;
+}
+
+#shorts-player .captions-text {
+    align-items: center!important;
+    justify-content: center !important;
 }
 
 /* when you hover a thumbnail */
