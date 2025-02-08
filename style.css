@@ -16,10 +16,10 @@
     background: none !important;
     font-family: "Inter", "Noto Sans Devanagari", "YouTube Noto", Roboto, Arial, Helvetica, sans-serif !important;
     font-size: 24px !important;
-    font-weight: normal !important;
+    font-weight: 500 !important;
     opacity: 100%;
     color: #fff !important;
-    text-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000;
+    text-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 10px #00000030;
 }
 
 .caption-visual-line {
@@ -40,6 +40,11 @@
     align-items: center!important;
     justify-content: center !important;
     bottom: 12px !important;
+
+}
+
+.ytp-player-minimized .caption-text {
+    height: 34px !important;
 
 }
 
