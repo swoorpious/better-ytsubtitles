@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+
+
 /* default */
 .caption-window {
     pointer-events: none !important;
@@ -11,17 +14,12 @@
 
 .ytp-caption-segment {
     background: none !important;
-    font-family: "Inter", sans-serif !important;
+    font-family: "Inter", "Noto Sans Devanagari", "YouTube Noto", Roboto, Arial, Helvetica, sans-serif !important;
     font-size: 24px !important;
-    font-weight: lighter !important;
+    font-weight: normal !important;
     opacity: 100%;
     color: #fff !important;
-    text-shadow: 0px 0px 1px #000,
-                 0px 0px 1px #000, 
-                 0px 0px 1px #000, 
-                 0px 0px 1px #000, 
-                 0px 0px 1px #000, 
-                 0px 0px 1px #000;
+    text-shadow: 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000;
 }
 
 .caption-visual-line {
@@ -48,7 +46,6 @@
 .ytp-player-minimized .ytp-caption-segment {
     width: 100%!important;
     background: none !important;
-    font-family: "inter","YouTube Noto",Roboto,Arial,Helvetica,sans-serif !important;
 }
 
 /* shorts */
@@ -80,6 +77,7 @@
     margin-left: 10px !important;
     width: 100% !important;
     display: flex !important;
+
 }
 
 .ytp-small-mode:not(.ytp-player-minimized) .captions-text {
@@ -100,12 +98,7 @@
     color: #fff !important;
 
     /* use text shadow if text-stroke looks like shit */ 
-    /* text-shadow: 0px 0px 1px #000, 
-                    0px 0px .75px #000, 
-                    0px 0px .75px #000, 
-                    0px 0px .75px #000, 
-                    0px 0px 1px #000, 
-                    0px 0px 1px #000; */
+    /* text-shadow: 0px 0px 1px #000, 0px 0px .75px #000, 0px 0px .75px #000, 0px 0px .75px #000, 0px 0px 1px #000, 0px 0px 1px #000; */
     -webkit-text-stroke: .0001px #000000a8;
 
     letter-spacing: .75px !important;
